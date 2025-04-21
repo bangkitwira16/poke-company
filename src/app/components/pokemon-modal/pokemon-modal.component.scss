@@ -1,0 +1,24 @@
+img {
+  display: block;
+  margin: 0 auto;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+mat-card {
+  color: #fff;
+  mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+  }
+  mat-card-title {
+    text-align: center;
+  }
+  .img-container {
+    align-self: center;
+    margin-top: 60px;
+  }
+}
