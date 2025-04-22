@@ -1,0 +1,39 @@
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 60px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+  button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    min-width: 40px !important;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    color: rgb(80, 80, 80);
+  }
+  button.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+  }
+  button.mat-mdc-button-disabled {
+    border-color: #c3c6c6 !important;
+  }
+  mat-icon {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+p.loader-placeholder {
+  text-align: center;
+}
