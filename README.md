@@ -1,6 +1,6 @@
 # 🧩 Angular Pokémon Demo App
 
-A demo Angular 19 standalone component application that displays the first 151 Pokémon from the PokéAPI. It includes pagination, dynamic loading indicators, modals for details.
+A demo Angular 19 standalone component application that displays the first 151 Pokémon from the PokéAPI. It includes pagination, dynamic loading indicators, modals for details, and Netlify auto-deployment via Github Actions.
 
 ---
 
@@ -12,6 +12,7 @@ A demo Angular 19 standalone component application that displays the first 151 P
 - Modal popup with Pokémon details
 - Loader using `@defer { } @loading { }` block
 - Signals + computed + effect for reactive updates
+- Auto deploy to Netlify via GitHub Actions
 
 ---
 
@@ -30,3 +31,8 @@ ng serve
 
 # Build the app
 ng build
+
+---
+
+## 🚀 Live Demo
+[https://680700535d31ac0008150b87--bangkitwira.netlify.app/](https://680700535d31ac0008150b87--bangkitwira.netlify.app/)
