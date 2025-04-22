@@ -1,4 +1,97 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.img-container {
+  background: linear-gradient(
+    to bottom,
+    rgba(214, 214, 214, 0.325),
+    rgba(77, 77, 77, 0.1)
+  );
+  box-shadow: 0 0 10px 10px rgba(202, 201, 201, 0.05);
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+mat-card-header {
+  width: 100%;
+}
+mat-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: capitalize;
+
+  &.pokemon-id {
+    font-size: 0.8rem;
+    background: rgb(80, 80, 80);
+    padding: 0px 10px !important;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  &.pokemon-name {
+    margin-top: 15px;
+  }
+}
+mat-card-content {
+  margin-top: 20px;
+  padding: 0;
+  width: 90%;
+  .pokemon-info-container {
+    display: flex;
+    flex-direction: row;
+    width: 55%;
+    justify-content: space-between;
+    justify-self: center;
+  }
+  .pokemon-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+
+    span:first-child {
+      font-weight: bold;
+      color: rgb(80, 80, 80);
+      margin-bottom: 5px;
+    }
+  }
+  .pokemon-type {
+    margin-top: 30px;
+    text-align: center;
+    span.title {
+      font-weight: bold;
+      color: rgb(80, 80, 80);
+    }
+  }
+}
+
+// pokemon-modal.component.scss
+h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-top: 1rem;
+  width: 85%;
+  height: 85%;
+  filter: saturate(120%) brightness(110%);
+}
+
+p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
