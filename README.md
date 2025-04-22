@@ -33,6 +33,10 @@ ng serve
 ng build
 
 ---
+```
+
+---
 
 ## 🚀 Live Demo
+
 [https://680700535d31ac0008150b87--bangkitwira.netlify.app/](https://680700535d31ac0008150b87--bangkitwira.netlify.app/)
